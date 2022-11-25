@@ -1,0 +1,53 @@
+name: ltm
+description: A new Flutter project.
+
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.10+1
+  provider: ^6.0.3
+  http: ^0.13.5
+  youtube_player_flutter: ^8.1.0
+  audioplayers: ^1.1.1
+  youtube_explode_dart: ^1.12.1
+  another_flushbar: ^1.12.29
+  hive: ^2.2.3
+  path_provider: ^2.0.11
+  image_cropper: ^2.0.3
+  image_picker: ^0.8.6
+  socket_io_client: ^0.9.12
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#19212E"
+  image: "assets/images/logo.png"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: CustomIcons
+      fonts:
+      - asset: assets/fonts/CustomIcons.ttf
+
